@@ -1,0 +1,85 @@
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #21252B;
+  color: #ffffff;
+  margin-top: 3%;
+}
+
+.toprow {
+  width: 65%;
+  margin: 5% auto;
+
+}
+.row {
+  text-align: center;
+  justify-content: center;
+}
+
+.controller > button{
+  border:none;
+  color: white;
+  background: none;
+
+}
+button:hover {
+  cursor: pointer;
+}
+button:active, button:visited {
+  border:none;
+
+}
+.controller{
+  font-size: 25px;
+  width: 100%;
+}
+
+#clockS, #clockB {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+  border: 5px solid #ffffff;
+  text-align: center;
+  padding: 2%;
+  font-size:30px;
+  color:white;
+  border-radius: 50%;
+}
+#clockB {
+  background: #c13c3c;
+}
+#clockS {
+  background: #46993d;
+}
+#type, #timer {
+  letter-spacing: 3px;
+}
+#type {
+  display: block;
+}
+#type::selection {
+  background: none;
+  color:black;
+}
+#timer {
+  display: block;
+  margin-top:80%;
+}
+
+.hidden {
+  display: none;
+}
+
+ @media(max-width: 480px) {
+  h1 {
+    font-size: 32px;
+
+  }
+  h5  {
+    font-size: 16px;
+    font-weight: 0;
+  }
+  .controller {
+    font-size: 20px;
+  }
+
+}
