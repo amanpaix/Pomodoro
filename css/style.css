@@ -50,7 +50,7 @@ button:active, button:visited {
 #clockS {
   background: #46993d;
 }
-#type, #timer {
+#clockS, #clockB {
   letter-spacing: 3px;
 }
 #type {
@@ -60,10 +60,7 @@ button:active, button:visited {
   background: none;
   color:black;
 }
-#timer {
-  display: block;
-  margin-top:80%;
-}
+
 
 .hidden {
   display: none;
@@ -74,7 +71,7 @@ button:active, button:visited {
     font-size: 32px;
 
   }
-  h5  {
+  span.sb  {
     font-size: 16px;
     font-weight: 0;
   }
